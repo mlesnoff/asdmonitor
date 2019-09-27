@@ -1,0 +1,40 @@
+---
+title: "AsdMonitor"
+#author: "Matthieu Lesnoff (Cirad, UMR Selmet, Montpellier, France)"
+#date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  chunk_output_type: console
+---
+
+
+**AsdMonitor** is a simple interface to create a control chart for monitoring the quality of predictions from ASD spectra of check-cells.
+
+The ASD files are imported using the R package *asdreader* (Roudier & Laliberté, https://cran.r-project.org/web/packages/asdreader/index.html) available on CRAN. To be imported, the ASD files must have been generated from IndicoPro version >= V6.
+
+### Guide
+
+In the **Control chart** panel:
+
+* Step 1: The user selects and loads his ASD files. The plot of the spectra is displayed in the Data panel.
+
+* Step 2: The user selects and loads an Excel file (.xls or .xlsx) defining the prediction equation. The predictions are displayed in a control chart. 
+
+The first sheet of the Excel file containing the equation has to be structured as follows: 
+
+<p><img src="www/eqa.jpg" width = "300px" /></p>
+
+### Authors
+
+M. Lesnoff [1], L. Bonnal [1]
+
+[1]: **CIRAD**, SELMET Research Unit (Mediteranean and Tropical Livestock systems), Montpellier, France
+
+https://umr-selmet.cirad.fr/en
+
+Corresponding author: laurent.bonnal@cirad.fr
+
+
