@@ -16,7 +16,7 @@ install.packages(devtools)
 library(devtools)
 install_github("mlesnoff/rnirs", build_vignettes = TRUE, dependencies = TRUE)
 ```
-3. Install **asdmonitor*
+3. Install **asdmonitor**
 
 ```{r}
 install_github("mlesnoff/asdmonitor", dependencies = TRUE)
