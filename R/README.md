@@ -33,7 +33,7 @@ install_github("mlesnoff/asdmonitor", dependencies = TRUE)
 
 ```
 
-### Usage
+### Usage 
 
 
 Load **asdmonitor**
