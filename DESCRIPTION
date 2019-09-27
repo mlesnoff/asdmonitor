@@ -1,7 +1,7 @@
 Package: asdmonitor
 Type: Package
 Title: ASD Control chart
-Version: 0.1
+Version: 0.1-1
 Date: 2019-09-04
 Author: Matthieu Lesnoff, Laurent Bonnal
 Maintainer: Matthieu Lesnoff <matthieu.lesnoff@cirad.fr>
