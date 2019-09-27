@@ -7,7 +7,7 @@ Author: Matthieu Lesnoff, Laurent Bonnal
 Maintainer: Matthieu Lesnoff <matthieu.lesnoff@cirad.fr>
 Description: Control chart for ASD spectra.
 Depends: R (>= 3.0.0)
-Imports: shiny, asdreader
+Imports: asdreader, readxl, rmarkdown, shiny
 License: GPL (>= 2)
 URL: https://github.com/mlesnoff/asdmonitor
 LazyData: yes
