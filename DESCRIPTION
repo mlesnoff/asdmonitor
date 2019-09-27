@@ -7,11 +7,8 @@ Author: Matthieu Lesnoff, Laurent Bonnal
 Maintainer: Matthieu Lesnoff <matthieu.lesnoff@cirad.fr>
 Description: Control chart for ASD spectra.
 Depends: R (>= 3.0.0)
-
 Imports: shiny, scales, signal, data.table, FNN, ggplot2, gridExtra 
 Suggests: knitr, rmarkdown
-
-
 License: GPL (>= 2)
 URL: http://livtools.cirad.fr/nirs
 LazyData: yes
