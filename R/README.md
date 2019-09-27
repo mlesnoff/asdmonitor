@@ -1,7 +1,7 @@
 # R package asdmonitor 0.1-1  
 ### ASD Control Chart
 
-Using Rstudio (https://www.rstudio.com/products/rstudio/download/) is recommended.
+Using Rstudio is recommended (https://www.rstudio.com/products/rstudio/download/).
 
 ### Installation
 
