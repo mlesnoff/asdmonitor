@@ -1,11 +1,13 @@
-# R package asdmonitor 0.1-1  
-### ASD Control Chart 
+## asdmonitor 0.1-1  
+## ASD Control Chart 
 
-Using Rstudio is recommended (https://www.rstudio.com/products/rstudio/download/).
+R package for implementing ASD control charts.
 
-### Installation
+Using Rstudio is recommended for installation and usage (https://www.rstudio.com/products/rstudio/download/).
 
-1. Install **devtools** package (if not already done)
+### Installation from Github
+
+1. Install **devtools** package from the CRAN (if not already done)
 
 ```{r}
 install.packages(devtools)
@@ -14,7 +16,7 @@ install.packages(devtools)
 
 ```{r}
 library(devtools)
-install_github("mlesnoff/rnirs", build_vignettes = TRUE, dependencies = TRUE)
+install_github("mlesnoff/rnirs", dependencies = TRUE)
 ```
 3. Install **asdmonitor**
 
