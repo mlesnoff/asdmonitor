@@ -10,7 +10,7 @@ Using Rstudio is recommended for installation and usage (https://www.rstudio.com
 1. Install **devtools** package from the CRAN (if not already done)
 
 ```{r}
-install.packages(devtools)
+install.packages("devtools")
 ```
 2. Load **devtools** and then install **rnirs** package  (if not already done)
 
