@@ -7,7 +7,7 @@ Using Rstudio is recommended for installation and usage (https://www.rstudio.com
 
 ## Installation from Github
 
-##### 1. For the first installation and if not already done
+#### 1. For the first installation and if not already done
 
 a. For Windows, install Rtools
 
@@ -28,7 +28,7 @@ c. Install package **devtools**  from the CRAN. Package devtools uses Rtools for
 ```{r}
 install.packages("devtools")
 ```
-##### 2. Load **devtools** and install **rnirs** package. Write in the R console
+#### 2. Load **devtools** and install **rnirs** package. Write in the R console
 
 ```{r}
 library(devtools)
@@ -42,7 +42,7 @@ Which would you like to update?"
 ```
 it is recommended to skip updates.
 
-##### 3. Install **asdmonitor**
+#### 3. Install **asdmonitor**
 
 ```{r}
 install_github("mlesnoff/asdmonitor", dependencies = TRUE)
@@ -60,9 +60,5 @@ Run the interface
 ```{r}
 asdmonitor()
 ```
-
-
-
-
 
 
