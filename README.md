@@ -9,7 +9,7 @@ Using Rstudio is recommended for installation and usage (https://www.rstudio.com
 
 #### 1. For the first installation and if not already done
 
-a. For Windows, install Rtools
+**a.** For Windows, install Rtools
 
 Download the **Rtools.exe** available at
 
@@ -19,11 +19,11 @@ and run it.
 
 The Rtools site gives indications for other operating systems. 
 
-b. Install Rstudio
+**b.** Install Rstudio
 
 https://www.rstudio.com/products/rstudio/download/
 
-c. Install package **devtools**  from the CRAN. Package devtools uses Rtools for facilitating packages installations. Use the Rstudio menu or write in the R console
+**c.** Install package **devtools**  from the CRAN. Package devtools uses Rtools for facilitating packages installations. Use the Rstudio menu or write in the R console
 
 ```{r}
 install.packages("devtools")
