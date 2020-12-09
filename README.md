@@ -3,62 +3,67 @@
 
 **asdmonitor** is a R package for implementing ASD control charts.
 
-Using Rstudio is recommended for installation and usage (https://www.rstudio.com/products/rstudio/download/).
+## <span style="color:green"> **Installation** </span> 
 
-## Installation from Github
+Using [**Rstudio**](https://www.rstudio.com/products/rstudio/download/) is recommended for installation and usage
 
-#### 1. For the first installation and if not already done
+### <span style="color:green"> 1.  Install package **remotes** from CRAN </span>
 
-**a.** For Windows, install Rtools
+Use the **Rstudio** menu 
 
-Download the **Rtools.exe** available at
-
-https://cran.r-project.org/bin/windows/Rtools/
-
-and run it.
-
-The Rtools site gives indications for other operating systems. 
-
-**b.** Install Rstudio
-
-https://www.rstudio.com/products/rstudio/download/
-
-**c.** Install package **devtools**  from the CRAN. Package devtools uses Rtools for facilitating packages installations. Use the Rstudio menu or write in the R console
-
+or write in the R console
 ```{r}
-install.packages("devtools")
-```
-#### 2. Load **devtools** and install **rnirs** package. Write in the R console
-
-```{r}
-library(devtools)
-install_github("mlesnoff/rnirs", dependencies = TRUE)
+install.packages("remotes")
 ```
 
-In case of the following question during installation
+### <span style="color:green"> 2. Install package **asdmonitor** </span> 
+
+**a) Most recent version**
+
+Write in the R console
+```{r}
+remotes::install_github("mlesnoff/asdmonitor", dependencies = TRUE)
+```
+In case of the following question during installation process:
 ```{r}
 These packages have more recent versions available.
 Which would you like to update?"
 ```
-it is recommended to skip updates.
+it is recommended to skip updates (usually choice **3** = None)
 
-#### 3. Install **asdmonitor**
+**b) Any given tagged version**
 
+e.g. with tag "v1.0-0"
+
+write in the R console
 ```{r}
-install_github("mlesnoff/asdmonitor", dependencies = TRUE)
+remotes::install_github("mlesnoff/asdmonitor@v1.0-0", dependencies = TRUE)
 ```
 
-## Usage 
+### <span style="color:green"> 3. Usage </span>
 
-Load **asdmonitor**
-
+Write in the R console
 ```{r}
 library(asdmonitor)
 ```
-Run the interface
 
+Run the interface
 ```{r}
 asdmonitor()
 ```
+
+## <span style="color:green"> **Author** </span> 
+
+**Matthieu Lesnoff**
+
+- Cirad, [**UMR Selmet**](https://umr-selmet.cirad.fr/en), Montpellier, France
+
+- [**ChemHouse**](https://www.chemproject.org/ChemHouse), Montpellier
+
+**matthieu.lesnoff@cirad.fr**
+
+
+
+
 
 
