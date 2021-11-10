@@ -1,4 +1,4 @@
-## asdmonitor 0.1-1  
+## asdmonitor 0.1-2  
 ## ASD Control Chart 
 
 **asdmonitor** is a R package for implementing ASD control charts.

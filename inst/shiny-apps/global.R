@@ -1,10 +1,11 @@
 library(shiny)
 
-library(rnirs)
+library(rchemo)
 library(asdreader)
-library(readxl)
 library(ggplot2)
-library(gridExtra) 
+library(gridExtra)
+library(markdown)
+library(readxl)
 
 
 
