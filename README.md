@@ -16,7 +16,22 @@ or write in the R console
 install.packages("remotes")
 ```
 
-### <span style="color:green"> 2. Install package **asdmonitor** </span> 
+### <span style="color:green"> 2.  Install package **rchemo** </span>
+
+Write in the R console
+```{r}
+remotes::install_github("mlesnoff/rchemo", dependencies = TRUE, 
+  build_vignettes = TRUE)
+```
+In case of the following question during installation process:
+```{r}
+These packages have more recent versions available.
+Which would you like to update?"
+```
+it is recommended to skip updates (usually choice **3** = None)
+
+
+### <span style="color:green"> 3. Install package **asdmonitor** </span> 
 
 **a) Most recent version**
 
@@ -40,7 +55,7 @@ write in the R console
 remotes::install_github("mlesnoff/asdmonitor@v1.0-0", dependencies = TRUE)
 ```
 
-### <span style="color:green"> 3. Usage </span>
+### <span style="color:green"> 4. Usage </span>
 
 Write in the R console
 ```{r}
