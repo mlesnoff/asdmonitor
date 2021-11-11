@@ -7,7 +7,7 @@
 
 Using [**Rstudio**](https://www.rstudio.com/products/rstudio/download/) is recommended for installation and usage
 
-### <span style="color:green"> 1.  Install package **remotes** from CRAN </span>
+### <span style="color:green"> 1.  Install package **remotes** from CRAN (if not already installed) </span>
 
 Use the **Rstudio** menu 
 
@@ -16,7 +16,7 @@ or write in the R console
 install.packages("remotes")
 ```
 
-### <span style="color:green"> 2.  Install package **rchemo** </span>
+### <span style="color:green"> 2.  Install package **rchemo** (if not already installed) </span>
 
 Write in the R console
 ```{r}
