@@ -7,5 +7,5 @@
 asdmonitor()
 }
 \description{
-This launches the graphical interface (GUI) of the package.
+Launch the graphical interface (GUI) of the package.
 }
